@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 255px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Passion One', sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+}
+
+p#milton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+p.extrofes {
+    font-family: 'Sriracha', cursive;
+    font-size: 35px;
+    margin-top: 90px;
+    margin-left: 45px;
+}
+
+p#e2 {
+    background-color: rgba(0, 0, 0, 0.599);
+    width: 410px;
+    height: 488px;
+    color: white;
+    padding: 5px;
+    line-height: 70px;
+}
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    margin-top: 100px;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.542);
+}
+
+p#e5 {
+    background-color: rgba(0, 0, 0, 0.544);
+    max-width: 3850px;
+    height: 488px;
+    color: white;
+    padding: 5px;
+    line-height: 70px;
+}
+
+section#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    margin-top: 150px;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.542);
+}
+
+p#e7 {
+    margin-bottom: 150px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
